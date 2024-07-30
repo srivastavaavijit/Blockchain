@@ -1,0 +1,37 @@
+The idea of blockchain came from the research paper - "How to digitally timestamp a document?" published in 1991 by Stuart Haber and W. Scott Stornetta.
+Early Foundations:
+Cryptographic Research (1970s - 1990s):
+Public Key Cryptography: The development of public key cryptography in the 1970s by Whitfield Diffie and Martin Hellman introduced the concept of asymmetric encryption, which became crucial for secure digital communication and data integrity.
+Digital Signatures: In the 1980s, research on digital signatures by Ronald Rivest, Adi Shamir, and Leonard Adleman (RSA algorithm) and later by others established methods for ensuring the authenticity and integrity of digital messages.
+
+Distributed Systems and Consensus Algorithms:
+Distributed Ledgers: Early work on distributed databases and systems explored methods for achieving consensus and ensuring data consistency across multiple nodes. Concepts like Byzantine Fault Tolerance were developed to address challenges in distributed systems where nodes might fail or act maliciously.
+
+Hash Functions and Chain Structures
+Hash Functions: Cryptographic hash functions, which produce a fixed-size output from variable-size input data, were fundamental in creating secure and tamper-evident data structures. These functions are used in blockchain to link blocks securely.
+Chain of Blocks: Concepts similar to blockchain, such as chain structures for recording and securing data, were explored in earlier research. For example, the "Merkle Tree," a data structure that uses hash functions to efficiently summarize and verify the integrity of large sets of data, was developed by Ralph Merkle in the late 1970s.
+
+In simple terms, blockchain is a "distributed immutable ledger" which is completely transparent.
+Understanding terms:
+Ledger is a kind of document or book where every transaction of an organisation is stored. In blockchain, block is equivalent to ledger. Just like ledger, block stores details of the transactions.
+Immutable because once the data is stored in the block, it cannot be modified.
+Distributed because it offers more security and transparency.
+For example:
+Suppose if you went to a shop, and bought some items at the price of Rs.3000, and you told shopkeeper to write it down in his book and you'll pay next time when you visit the shop. The shopekeer made some changes
+in the calculations.The next time you came to the shop, the shopkeeper told you to pay Rs.3000. But the actual price was Rs.8000. Here, you cannot do anything since you dont have any kind of proof to justify your statement while the shopkeeper
+got the written proof in his ledger book. So what could be the possible solution for this?
+A distributed system - Like when you told shopkeeper to write down the calculations in his ledger book, you too simultaneously updated the information in your ledger book. Now you both know the actual price, 
+an no changes can be made in the calculations.
+
+Same in the blockchain, whenever any change is made in the block, every node in the network gets notified about the changes and hence offers transparency and security.
+
+Moreover, the data stored in the block is encrypted using SHA-256 algorithm.
+
+How would I know, I am connected to a blockchain?
+Determining where blockchain technology is present within a network involves several approaches depending on whether you're looking at a specific blockchain platform (like Ethereum, Bitcoin, etc.) or broader applications of blockchain across industries. 
+Here are some ways to identify where blockchain is present in a network:
+Public Blockchain Platforms: Public blockchain platforms like Ethereum, Bitcoin, Binance Smart Chain, etc., have public networks where blockchain is inherently present. You can check the status and activities of these networks through blockchain explorers (e.g., Etherscan for Ethereum, Blockchain.info for Bitcoin) to see ongoing transactions, smart contract deployments, and other activities.
+
+Blockchain-based Applications (DApps): Decentralized applications (DApps) operate on blockchain platforms and are accessible through various app stores or specific websites. Finding DApps that you can interact with (such as decentralized finance applications, games, marketplaces) indicates where blockchain technology is being utilized.
+
+Private Blockchain Networks: In the case of private or consortium blockchains, these are networks that are restricted to specific organizations or participants. Identifying where these networks exist often requires direct involvement or knowledge from stakeholders within those organizations or consortiums.
