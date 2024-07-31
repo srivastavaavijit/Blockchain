@@ -1,0 +1,19 @@
+First of all, let's see how a basic structure of a  block looks like?
+A block contains several fields that are - Block Number, Nonce, Data, Previous hash value, Current block hash  value.
+Block number indicates the nnumber of block created in the blockchain.
+Nonce is basically a number used to solve the mathematical problem related to mining of the block. So, basically idea is that a block cannot be mined until and unless a mathematical problem is solved.
+The mathematical problem states that find a nonce such that the generated hash value lies within the target value. Since, every other value in the block is immutable and therefore nonce is adjusted only.
+A block also contains the value of the previous hash so that a link can be maintained.
+
+Talking about the hash value, it is generated using SHA-256 Algorithm.
+SHA-256 Algorithm:
+SHA-256 (Secure Hash Algorithm 256-bit) is a cryptographic hash function that belongs to the SHA-2 family of hash functions. It produces a 256-bit (32-byte) hash value from input data.
+Characteristics:
+Output Size: Always produces a 256-bit hash value (32 bytes).
+Deterministic: The same input will always produce the same hash output.
+Fast Computation: Efficiently computed even for large inputs.
+Pre-image Resistance: It's computationally infeasible to reverse the hash function and recover the original input from the hash.
+Second Pre-image Resistance: It's hard to find a different input that hashes to the same output.
+Collision Resistance: It's difficult to find two different inputs that produce the same hash value.
+
+There is a concept of Avalanche Effect in this algorithm that states that a small change in the data of the block will result in the complete change in hash value.
