@@ -1,0 +1,32 @@
+Centralised Network:
+A centralized network is one where a single central authority or server controls and manages the entire system. 
+In such a network, all communication, data processing, and decision-making are routed through this central entity.
+
+Disadvantages in blockchain:
+Vulnerability: If the central server or authority fails, the entire network can be disrupted or cease to function.
+This vulnerability contrasts with blockchain's decentralized model, where the failure of one node doesn’t impact the entire network.
+
+Data Loss: If data stored on a central server is lost or corrupted, it may not be recoverable unless there are adequate backup systems.
+
+Transparency: Centralized systems may lack transparency, as users cannot easily verify or audit the central authority’s actions.
+
+Trust in Data: In centralized networks, maintaining data integrity relies heavily on the central authority’s credibility and security measures.
+
+Peer-To-Peer Network:
+A P2P network is a decentralized network architecture where each participant (or "peer") has equal status and can act as both a client and a server. 
+In a P2P network, resources and services are shared directly between peers without relying on a central server or authority.
+Blockchain technology is built on a P2P network model. In a blockchain, each node (or participant) in the network maintains a copy of the entire blockchain ledger. 
+Transactions are verified by consensus mechanisms, and the ledger is updated through a decentralized process without a central authority.
+
+Advantages in Blockchain:
+Distributed Control: Unlike centralized systems, where a single entity controls the entire network, P2P networks distribute control across all participants. 
+In a blockchain, this means there is no central authority, reducing the risk of single points of failure and making the system more resilient to attacks or outages.
+
+Resistance to Attacks: A P2P network is less susceptible to certain types of attacks, such as Distributed Denial of Service (DDoS) attacks, because there is no central server to target. 
+Instead, the attack would need to affect a significant portion of the network to be effective.
+
+Open Ledger: Blockchain's P2P network allows for transparency, as all participants have access to the same ledger. 
+This openness ensures that transactions can be independently verified and audited by anyone in the network, fostering trust among participants.
+
+Redundancy: Since each node maintains a copy of the blockchain ledger, there is inherent redundancy in the system.
+This means that data is replicated across multiple locations, reducing the risk of data loss or corruption.
